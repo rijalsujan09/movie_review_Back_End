@@ -9182,3 +9182,63 @@ Identify and stop the process that's listening on port 8089 or configure this ap
 2023-03-02T17:43:17.764-05:00  INFO 489 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8089 (http) with context path ''
 2023-03-02T17:43:17.769-05:00  INFO 489 --- [restartedMain] c.p.moviereview.MovieReviewApplication   : Started MovieReviewApplication in 1.575 seconds (process running for 1.832)
 2023-03-02T17:43:17.770-05:00  INFO 489 --- [restartedMain] c.p.moviereview.MovieReviewApplication   : _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+2023-03-02T18:02:21.852-05:00  INFO 489 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-03-02T18:02:21.886-05:00  INFO 489 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-02T18:02:21.896-05:00  INFO 489 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-02T18:02:21.900-05:00  INFO 489 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-03-02T18:02:21.916-05:00  INFO 489 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-03-02T18:02:21.975-05:00  INFO 489 --- [restartedMain] c.p.moviereview.MovieReviewApplication   : Starting MovieReviewApplication using Java 17.0.6 with PID 489 (/Users/rijalsujan09/spring-workspace/movie_review/target/classes started by rijalsujan09 in /Users/rijalsujan09/spring-workspace/movie_review)
+2023-03-02T18:02:21.975-05:00 DEBUG 489 --- [restartedMain] c.p.moviereview.MovieReviewApplication   : Running with Spring Boot v3.0.3, Spring v6.0.5
+2023-03-02T18:02:21.975-05:00  INFO 489 --- [restartedMain] c.p.moviereview.MovieReviewApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-03-02T18:02:22.048-05:00  INFO 489 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-02T18:02:22.057-05:00  INFO 489 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 4 JPA repository interfaces.
+2023-03-02T18:02:22.119-05:00  INFO 489 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8089 (http)
+2023-03-02T18:02:22.119-05:00  INFO 489 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-02T18:02:22.120-05:00  INFO 489 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-02T18:02:22.124-05:00  INFO 489 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-02T18:02:22.124-05:00  INFO 489 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 147 ms
+2023-03-02T18:02:22.141-05:00  INFO 489 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-02T18:02:22.144-05:00  INFO 489 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-03-02T18:02:22.184-05:00  INFO 489 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2c4a4496
+2023-03-02T18:02:22.185-05:00  INFO 489 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-03-02T18:02:22.185-05:00  INFO 489 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-03-02T18:02:22.264-05:00  INFO 489 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-02T18:02:22.264-05:00  INFO 489 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-02T18:02:22.290-05:00  INFO 489 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static java.lang.String com.projectsujan.moviereview.service.impl.EmailServiceImpl.sender
+2023-03-02T18:02:22.347-05:00  WARN 489 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-02T18:02:22.385-05:00  WARN 489 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-03-02T18:02:22.402-05:00  INFO 489 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-02T18:02:22.408-05:00  INFO 489 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8089 (http) with context path ''
+2023-03-02T18:02:22.412-05:00  INFO 489 --- [restartedMain] c.p.moviereview.MovieReviewApplication   : Started MovieReviewApplication in 0.45 seconds (process running for 1146.492)
+2023-03-02T18:02:22.413-05:00  INFO 489 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-03-02T18:02:22.413-05:00  INFO 489 --- [restartedMain] c.p.moviereview.MovieReviewApplication   : _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+2023-03-02T18:02:30.919-05:00  INFO 489 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-03-02T18:02:30.925-05:00  INFO 489 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-02T18:02:30.931-05:00  INFO 489 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-02T18:02:30.932-05:00  INFO 489 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-03-02T18:02:30.938-05:00  INFO 489 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2023-03-02T18:02:30.985-05:00  INFO 489 --- [restartedMain] c.p.moviereview.MovieReviewApplication   : Starting MovieReviewApplication using Java 17.0.6 with PID 489 (/Users/rijalsujan09/spring-workspace/movie_review/target/classes started by rijalsujan09 in /Users/rijalsujan09/spring-workspace/movie_review)
+2023-03-02T18:02:30.985-05:00 DEBUG 489 --- [restartedMain] c.p.moviereview.MovieReviewApplication   : Running with Spring Boot v3.0.3, Spring v6.0.5
+2023-03-02T18:02:30.985-05:00  INFO 489 --- [restartedMain] c.p.moviereview.MovieReviewApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-03-02T18:02:31.041-05:00  INFO 489 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-02T18:02:31.047-05:00  INFO 489 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 4 JPA repository interfaces.
+2023-03-02T18:02:31.092-05:00  INFO 489 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8089 (http)
+2023-03-02T18:02:31.092-05:00  INFO 489 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-02T18:02:31.092-05:00  INFO 489 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-02T18:02:31.096-05:00  INFO 489 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-02T18:02:31.096-05:00  INFO 489 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 110 ms
+2023-03-02T18:02:31.110-05:00  INFO 489 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-02T18:02:31.112-05:00  INFO 489 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2023-03-02T18:02:31.130-05:00  INFO 489 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@70f81d55
+2023-03-02T18:02:31.130-05:00  INFO 489 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2023-03-02T18:02:31.130-05:00  INFO 489 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-03-02T18:02:31.193-05:00  INFO 489 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-02T18:02:31.193-05:00  INFO 489 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-02T18:02:31.214-05:00  INFO 489 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static java.lang.String com.projectsujan.moviereview.service.impl.EmailServiceImpl.sender
+2023-03-02T18:02:31.263-05:00  WARN 489 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-02T18:02:31.294-05:00  WARN 489 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-03-02T18:02:31.305-05:00  INFO 489 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-02T18:02:31.311-05:00  INFO 489 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8089 (http) with context path ''
+2023-03-02T18:02:31.313-05:00  INFO 489 --- [restartedMain] c.p.moviereview.MovieReviewApplication   : Started MovieReviewApplication in 0.339 seconds (process running for 1155.393)
+2023-03-02T18:02:31.313-05:00  INFO 489 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-03-02T18:02:31.314-05:00  INFO 489 --- [restartedMain] c.p.moviereview.MovieReviewApplication   : _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_

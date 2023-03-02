@@ -1,15 +1,15 @@
 # Server
-server.port= 8090
+server.port= 8089
 
 # jpa Configuration
-spring.jpa.hibernate.ddl-auto= update
+spring.jpa.hibernate.ddl-auto=update
 # Also 
 spring.jpa.show-sql= true
 
 # MySQL Driver
 spring.datasource.url= jdbc:mysql://localhost:3306/movie_review
 spring.datasource.username= root
-spring.datasource.password= your pass
+spring.datasource.password= Nunarijal12#
 spring.datasource.driver-class-name= com.mysql.cj.jdbc.Driver
 
 # logging level
@@ -28,7 +28,12 @@ logging.file.name=logs/movie_review.log
 #spring mail configurations
 spring.mail.host=smtp.gmail.com
 spring.mail.port=587
-spring.mail.username=your email
-spring.mail.password=your pass
+spring.mail.username=contact.rijalsujan09@gmail.com
+spring.mail.password=bmbooqoozhgcxmnf
 spring.mail.properties.mail.smtp.auth=true
 spring.mail.properties.mail.smtp.starttls.enable=true
+
+
+spring.security.user.name=user
+spring.security.user.password=pass
+spring.security.user.roles=ADMIN
